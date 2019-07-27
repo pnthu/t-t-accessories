@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+	width: 1280px;
+	min-height: 768px;
+	background: url(../Images/BackgroundImg.jpg) fixed no-repeat;
+	margin: 0 auto;
+}
+
+/*CSS for header*/
+header {
+	width: 100%;
+	height: 250px;
+}
+
+/*CSS for nav*/
+nav {
+	width: 100%;
+	height: 30px;
+	background-color: #000000;
+}
+
+nav a {
+	color: #FFF;
+	font-size: 20px;
+	font-family: Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+	text-decoration: none;
+	width: 255px;
+	height: 30px;
+	text-align: center;
+	float: left;
+	line-height: 30px;
+	border-left: 0.5px #FFF solid;
+}
+
+nav a:hover {
+	color: #000;
+	background-color: #CCCCCC;
+}
+
+/*CSS for article*/
+article {
+	width: 100%;
+	min-height: 800px;
+}
+
+.contactTop {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 30px;
+}
+
+.contactTop p {
+	font-size: 19px;
+	line-height: 25px;
+	word-spacing: 2px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.contactTop td {
+	padding: 5px;
+	font-size: 18px;
+}
+
+.contactTop input {
+	width: 250px;
+	height: 25px;
+}
+
+.contactTop .btn {
+	width: 100px;
+}
+
+.contactLeft {
+	width: 45%;
+	float: left;
+}
+
+.contactLeft h2 {
+	margin-left: 15px;
+	font-size: 30px;
+}
+
+.contactRight {
+	width: 50%;
+	float: right;
+}
+
+.contactRight iframe {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+/*CSS for footer*/
+footer {
+	width: 100%;
+	height: 200px;
+	border-top: 5px #000 solid;
+	border-bottom: 5px #000 solid;
+}
+
+.footer_left {
+	width: 50%;
+	height: 200px;
+	float: left;
+	font-size: 18px;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+ul li {
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.copyright {
+	margin-top: 30px;
+}
+
+
+.footer_right {
+	width: 45%;
+	height: 200px;
+	float: right;
+	text-align: center;
+	font-size: 20px;
+}
+
+.footer_right a {
+	text-decoration: none;
+	margin-left: 35px;
+	margin-right: 35px;
+}

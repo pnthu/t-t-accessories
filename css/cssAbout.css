@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+	width: 1280px;
+	min-height: 768px;
+	background: url(../Images/BackgroundImg.jpg) fixed no-repeat;
+	margin: 0 auto;
+}
+
+/*CSS for header*/
+header {
+	width: 100%;
+	height: 250px;
+	margin: 0px;
+}
+
+/*CSS for nav*/
+nav {
+	width: 100%;
+	height: 30px;
+	background-color: #000000;
+	margin: 0px;
+}
+
+nav a {
+	color: #FFF;
+	font-size: 20px;
+	font-family: Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+	text-decoration: none;
+	width: 255px;
+	height: 30px;
+	text-align: center;
+	float: left;
+	line-height: 30px;
+	border-left: 0.5px #FFF solid;
+}
+
+nav a:hover {
+	color: #000;
+	background-color: #CCCCCC;
+}
+
+/*CSS for article*/
+article {
+	width: 100%;
+	height: auto;
+}
+
+.intro {
+	width: 1000px;
+	height: auto;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	font-size: 19px;
+}
+
+.intro h1 {
+	font-size: 25px;
+}
+
+.intro p {
+	line-height: 25px;
+	word-spacing: 3px;
+}
+
+.boxLeft {
+	width: 47%;
+	height: auto;
+	margin-left: 10px;
+	float: left;
+}
+
+.boxLeft img {
+	float: left;
+	width: 170px;
+	height: 170px;
+	margin-top: 15px;
+	
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.boxLeft p {
+	margin-left: 180px;
+	text-align: justify;
+	font-size: 17px;
+	line-height: 25px;
+	word-spacing: 2px;
+}
+
+.boxRight {
+	width: 47%;
+	height: auto;
+	margin-left: 10px;
+	float: right;
+}
+
+.boxRight img {
+	float: left;
+	width: 170px;
+	height: 170px;
+	margin-top: 15px;
+	
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.boxRight p {
+	margin-left: 180px;
+	text-align: justify;
+	font-size: 17px;
+	line-height: 25px;
+	word-spacing: 2px;
+}
+
+
+/*CSS for footer*/
+footer {
+	width: 100%;
+	height: 200px;
+	border-top: 5px #000 solid;
+	border-bottom: 5px #000 solid;
+	clear: both;
+}
+
+.footer_left {
+	width: 50%;
+	height: 200px;
+	float: left;
+	font-size: 18px;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+ul li {
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.copyright {
+	margin-top: 30px;
+}
+
+
+.footer_right {
+	width: 45%;
+	height: 200px;
+	float: right;
+	text-align: center;
+	font-size: 20px;
+}
+
+.footer_right a {
+	text-decoration: none;
+	margin-left: 35px;
+	margin-right: 35px;
+}

@@ -1,0 +1,693 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Jewelry | T&T ACCESSORIES</title>
+<script src="js/jquery.js"></script>
+<script src="js/btn_top.js"></script>
+<link rel="icon" href="Images/IconImg.jpg" sizes="16x16" />
+<link rel="stylesheet" href="CSS/CssJewelry.css"/>
+<link rel="stylesheet" href="CSS/btn_stop.css"/>
+
+    <!--Copy code sau vào thẻ head của trang-->
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/jssor.slider-22.2.8.mini.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:1200,$Opacity:2}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1280);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*responsive code end*/
+        });
+    </script>
+    <style>
+        /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('Images/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 12 css */
+        /*
+        .jssora12l                  (normal)
+        .jssora12r                  (normal)
+        .jssora12l:hover            (normal mouseover)
+        .jssora12r:hover            (normal mouseover)
+        .jssora12l.jssora12ldn      (mousedown)
+        .jssora12r.jssora12rdn      (mousedown)
+        */
+        .jssora12l, .jssora12r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 30px;
+            height: 46px;
+            cursor: pointer;
+            background: url('Images/a12.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora12l { background-position: -16px -37px; }
+        .jssora12r { background-position: -75px -37px; }
+        .jssora12l:hover { background-position: -136px -37px; }
+        .jssora12r:hover { background-position: -195px -37px; }
+        .jssora12l.jssora12ldn { background-position: -256px -37px; }
+        .jssora12r.jssora12rdn { background-position: -315px -37px; }
+    </style>
+
+	<script>
+		$(document).ready(function(){
+		  $('aside>div>ul>li>a').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+			&& location.hostname == this.hostname) {
+			  var $target = $(this.hash);
+			  $target = $target.length && $target
+			  || $('[name=' + this.hash.slice(1) +']');
+			  if ($target.length) {
+				var targetOffset = $target.offset().top;
+				$('html,body')
+				.animate({scrollTop: targetOffset}, 1000);
+			   return false;
+			  }
+			}
+		  });
+		});
+	</script>
+
+
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<!-- Copy nội dung bên dưới và paste vào vị trí muốn hiển thi slideshow-->
+   
+   			<!-- Hiệu chỉnh độ rộng và độ cao cho các ảnh trong slideshow-->
+    		<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1280px;height:250px;overflow:hidden;visibility:hidden;">
+        	<!-- Loading Screen -->
+        	<div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+            	<div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            	<div style="position:absolute;display:block;background:url('Images/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        	</div>
+        
+       		<!-- Hiệu chỉnh độ rộng và độ cao cho các ảnh trong slideshow-->
+        	<div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1280px;height:250px;overflow:hidden;">
+            	<div>
+                	<img data-u="image" src="Images/Banner1Img.jpg" />
+            	</div>
+            	<div>
+                	<img data-u="image" src="Images/Banner2Img.jpg" />
+            	</div>
+            	<div>
+                	<img data-u="image" src="Images/Banner3Img.jpg" />
+            	</div>
+            	<div>
+                	<img data-u="image" src="Images/Banner4Img.jpg" />
+            	</div>
+            	<div>
+                	<img data-u="image" src="Images/Banner5Img.jpg" />
+            	</div>
+        	</div>
+        	<!-- Bullet Navigator -->
+        	<div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            	<!-- bullet navigator item prototype -->
+            	<div data-u="prototype" style="width:16px;height:16px;"></div>
+        	</div>
+        	<!-- Arrow Navigator -->
+        	<span data-u="arrowleft" class="jssora12l" style="top:0px;left:0px;width:30px;height:46px;" data-autocenter="2"></span>
+        	<span data-u="arrowright" class="jssora12r" style="top:0px;right:0px;width:30px;height:46px;" data-autocenter="2"></span>
+    		</div>
+		</header>
+		
+		<nav>
+			<a href="index.html" target="_blank"> HOME </a>
+			<a href="about.html" target="_blank"> ABOUT </a>
+			<a href="jewelry.html" target="_blank"> JEWELRY </a>
+			<a href="accessories.html" target="_blank"> ACCESSORIES </a>
+			<a href="contact.html" target="_blank"> CONTACT </a>
+		</nav>
+		
+		<aside>
+		  <div class="submenu">
+			<ul>				
+				<li><a href="#rings">RINGS</a></li>
+				<li><a href="#bracelets">BRACELETS</a></li>
+				<li><a href="#necklaces">NECKLACES</a></li>
+				<li><a href="#earrings">EARRINGS</a></li>
+			</ul>
+		  </div>
+		</aside>
+		
+		<article>
+		
+		<!--Start of rings-->
+		<section id="rings">
+			<div class="categories">
+				<p><b>RINGS</b></p>
+			</div>
+			
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 10922.100 <br/>
+                      	Material: Silver <br/>
+                      	Gem Shape: Round <br/>
+                      	Size: 7-13 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Ring1.jpg"/>
+					<p class="name">Infinity Ring With Gems </p>
+					<p class="price">355,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: PA7127 <br/>
+                      	Material: Silver <br/>
+                      	Gem Shape: Round <br/>
+                      	Size: 6-9 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Ring2.jpg"/>
+					<p class="name">Sterling Crystal Star Ring</p>
+					<p class="price">364,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: SRD0298D <br/>
+                      	Material: Silver <br/>
+                      	Pearl Size: 5 mm <br/>
+                      	Size: 7-11 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Ring3.jpg"/>
+					<p class="name">Pearl Overlay Ring</p>
+					<p class="price">699,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 74178.102 <br/>
+                      	Material: Gold <br/>
+                      	Gem Shape: Round <br/>
+                      	Size: 8-17 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Ring4.jpg"/>
+					<p class="name">Gold Ring With CZ Stone</p>
+					<p class="price">2,180,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: SS415652889 <br/>
+                      	Material: Steel, Gold <br/>
+                      	Words: "Forever Love" <br/>
+                      	Size: 5-13 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Ring5.jpg"/>
+					<p class="name">Stainless Steel Gold with Words Ring</p>
+					<p class="price">439,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 69363.102 <br/>
+                      	Material: Gold <br/>
+                      	Gem Shape: Round <br/>
+                      	Size: 6.5-19 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Ring6.jpg"/>
+					<p class="name">18 Carats Gold Wedding Ring</p>
+					<p class="price">2,690,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 05672.100 <br/>
+                      	Material: Silver <br/>
+                      	Gem Shape: Round <br/>
+                      	Size: 8-19 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Ring7.jpg"/>
+					<p class="name">Couple Silver Ring With Gems</p>
+					<p class="price">679,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 14334.000 <br/>
+                      	Material: Silver <br/>
+                      	Gem Shape: Round <br/>
+                      	Size: 8-19 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Ring8.jpg"/>
+					<p class="name">Friendzone Breaker Couple Ring</p>
+					<p class="price">754,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 12480.100 <br/>
+                      	Material: Silver <br/>
+                      	Gem Shape: Round <br/>
+                      	Size: 7-19 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Ring9.jpg"/>
+					<p class="name">Silver Couple Ring With CZ Gems</p>
+					<p class="price">679,000 VND</p>
+				</div>
+			<div style="clear: both;"></div>
+		</section>
+		<!--End of rings-->
+			
+		<!--Start of bracelets-->	
+		<section id="bracelets">			
+			<div class="categories">
+				<p><b>BRACELETS</b></p>
+			</div>
+			
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 47122.106 <br/>
+                      	Material: White Gold <br/>
+                      	Gem Shape: Diamond <br/>
+                      	Size: 15-18 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Bracelet1.jpg"/>
+					<p class="name">10 Carats White Gold Bangle With Gems</p>
+					<p class="price">5,170, 000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 91430.100 <br/>
+                      	Material: Silver <br/>
+                      	Gem Shape: Heart <br/>
+                      	Size: 50-56 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Bracelet2.jpg"/>
+					<p class="name">Wanderlust Heart-Shaped Gem Bracelet</p>
+					<p class="price">839,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 14463.000 <br/>
+                      	Material: Silver <br/>
+                      	Color: Multi-Color <br/>
+                      	Size: 40-54 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Bracelet3.jpg"/>
+					<p class="name">DIY Enamel Bracelet</p>
+					<p class="price">1,190,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 14121.000 <br/>
+                      	Material: Silver <br/>
+                      	Gender: Unisex <br/>
+                      	Size: 50-54 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Bracelet4.jpg"/>
+					<p class="name">Music Lovin' Bracelet</p>
+					<p class="price">655,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 14411.100 <br/>
+                      	Material: Silver <br/>
+                      	Gem Shape: Round <br/>
+                      	Size: 50-58 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Bracelet5.jpg"/>
+					<p class="name">Friendzone Breaker Bracelet </p>
+					<p class="price">664,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 81110.600 <br/>
+                      	Material: Gold <br/>
+                      	Pearl Size: 3 mm <br/>
+                      	Size: 50-54 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Bracelet6.jpg"/>
+					<p class="name">Freshwater Bracelet With Pearl</p>
+					<p class="price">11,749,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 07201.013 <br/>
+                      	Material: Gold <br/>
+                      	Carved Pattern: Flowers <br/>
+                      	Size: 51-55 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Bracelet7.jpg"/>
+					<p class="name">24 Carats Gold Wedding Bracelet</p>
+					<p class="price">8,226,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 05870.100 <br/>
+                      	Material: Silver <br/>
+                      	Gem Shape: Round <br/>
+                      	Size: 50-55 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Bracelet8.jpg"/>
+					<p class="name">Silver Bracelet With Gems</p>
+					<p class="price">869,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 70603.102 <br/>
+                      	Material: Silver <br/>
+                      	Gem Shape: Round <br/>
+                      	Size: 50-54 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Bracelet9.jpg"/>
+					<p class="name">18 Carats Gold Bracelet With Gems</p>
+					<p class="price">8,043,000 VND</p>
+				</div>
+			<div style="clear: both;"></div>
+		</section>
+		<!--End of bracelets-->
+				
+		<!--Start of necklaces-->
+		<section id="necklaces">
+			<div class="categories">
+				<p><b>NECKLACES</b></p>
+			</div>
+			
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 87093.983 <br/>
+                      	Material: White Gold <br/>
+                      	Gem Shape: Diamond <br/>
+                      	Size: 50-55 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Necklace1.jpg"/>
+					<p class="name">Bead Style Necklace</p>
+					<p class="price">15,699,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 025.002 <br/>
+                      	Material: Gold <br/>
+                      	Gold Age: 18 Carats <br/>
+                      	Size: 40-45 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Necklace2.jpg"/>
+					<p class="name">Knitted Gold Necklace</p>
+					<p class="price">1,338,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 041.002 <br/>
+                      	Material: White Gold <br/>
+                      	Gold Age: 18 Carats <br/>
+                      	Size: 42-45 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Necklace3.jpg"/>
+					<p class="name">Italian Cubes Necklace</p>
+					<p class="price">5.048.000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 87542.283 <br/>
+                      	Material: Gold <br/>
+                      	Gold Age: 10 Carats<br/>
+                      	Size: 42-51 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Necklace4.jpg"/>
+					<p class="name">Gold Snake Chain Necklace</p>
+					<p class="price">6,599,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 45432.328 <br/>
+                      	Material: White Gold <br/>
+                      	Gem Type: ECZ <br/>
+                      	Size: 45-55 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Necklace5.jpg"/>
+					<p class="name">10 Carats White Gold Pendant With Gems</p>
+					<p class="price">1,979,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 52157.102 <br/>
+                      	Material: Gold <br/>
+                      	Gem Type: CZ <br/>
+                      	Size: 50-55 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Necklace6.jpg"/>
+					<p class="name">18 Carats Gold Locket With Gems</p>
+					<p class="price">2,656,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 80589.102 <br/>
+                      	Material: Gold <br/>
+                      	Gem Type: CZ <br/>
+                      	Size: 48-54 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Necklace7.jpg"/>
+					<p class="name">18 Carats Gold Pendant With Gems</p>
+					<p class="price">3.824.000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 55009.106 <br/>
+                      	Material: White Gold <br/>
+                      	Gem Type: Diamond <br/>
+                      	Size: 49-57 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Necklace8.jpg"/>
+					<p class="name">10 Carats White Gold Pendant With Gems</p>
+					<p class="price">1.503.000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 76321.102 <br/>
+                      	Material: Gold <br/>
+                      	Gem Shape: Round <br/>
+                      	Size: 50-55 <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Necklace9.jpg"/>
+					<p class="name">18 Carats Gold Pendant With Gems</p>
+					<p class="price">3.549.000 VND</p>
+				</div>
+			<div style="clear: both;"></div>
+		</section>
+		<!--End of necklaces-->		
+				
+		<!--Start of earrings-->
+		<section id="earrings">
+			<div class="categories">
+				<p><b>EARRINGS</b></p>
+			</div>
+			
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: E0469 <br/>
+                      	Material: Alloy <br/>
+                      	Gem Shape: Round <br/>
+                      	Color: Silver/Gold/Brown <br/>                      	
+				 	</p>
+		 			</span>
+					<img src="Images/Earings1.jpg"/>
+					<p class="name">Hollow Dream Catcher Earrings</p>
+					<p class="price">449,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: HK4155 <br/>
+                      	Material: Silver <br/>
+                      	Gem Type: Diamond <br/>
+                      	Length: 10mm <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Earings2.jpg"/>
+					<p class="name">Diamond Wendy Earrings</p>
+					<p class="price">3,040,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: DS3894 <br/>
+                      	Material: Silver <br/>
+                      	Symbol: Daisy Flower <br/>
+                      	Size: 30mm <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Earings3.jpg"/>
+					<p class="name">White Enameled Daisy Hoop Earrings</p>
+					<p class="price">309,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 81994.600 <br/>
+                      	Material: Gold <br/>
+                      	Ruby Color: Red <br/>
+                      	Ruby Shape: Water Drop <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Earings4.jpg"/>
+					<p class="name">Gold Phoenix Earrings With Ruby</p>
+					<p class="price">5,799,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: E863 <br/>
+                      	Material: Silver <br/>
+                      	Earrings Shape: Circle <br/>
+                      	Earrings Type: Drop Earrings <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Earings5.jpg"/>
+					<p class="name">Tree Life Charms Earrings</p>
+					<p class="price">499,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: FME007 <br/>
+                      	Material: Silver <br/>
+                      	Gem Type: CZ <br/>
+                      	Pearl Size: 5mm <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Earings6.jpg"/>
+					<p class="name">Round-cut Bow Pearl Earrings</p>
+					<p class="price">429,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 291321 <br/>
+                      	Material: Gold <br/>
+                      	Total Length: 35mm <br/>
+                      	Pearl Size: 5mm/7mm <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Earings7.jpg"/>
+					<p class="name">Pearl Corfu Earrings</p>
+					<p class="price">999,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: 4925530 <br/>
+                      	Material: Silver <br/>
+                      	Gem Type: CZ <br/>
+                      	Size: Diameter 1cm <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Earings8.jpg"/>
+					<p class="name">Glitzy Solitaire Earrings</p>
+					<p class="price">1,139,000 VND</p>
+				</div>
+				<div class="product">
+					<span class="simple-caption">
+                  	<p> Model: QJEDH7617 <br/>
+                      	Material: Gold <br/>
+                      	Diamond Shape: Round <br/>
+                      	Length: 11.2 mm <br/>
+				 	</p>
+		 			</span>
+					<img src="Images/Earings9.jpg"/>
+					<p class="name">Gold Solid Diamond Earrings</p>
+					<p class="price">3,799,000 VND</p>
+				</div>
+			<div style="clear: both;"></div>
+		</section>
+		<!--End of earrings-->
+				
+		</article>
+		
+		<footer>
+			<div class="footer_left">
+			<ul>
+				<li>Headquaters: 317 Phan Xich Long, Ward 1, Phu Nhuan District</li>
+				<li>Phone Number: (028) 7300 1866</li>
+				<li>Fax Number: (028) 7300 5586</li>
+			</ul>
+			<p class="copyright">COPYRIGHT&#169 BY T&T ACCESSORIES</p>
+			</div>
+			
+			<div class="footer_right">
+				<p>JOIN WITH US</p>
+				<a href="https://www.facebook.com/" target="_blank"> <img src="Images/facebook.png" width="35" height="35"/> </a>
+				<a href="https://twitter.com/" target="_blank"> <img src="Images/twitter.jpg" width="35" height="35"/> </a>
+				<a href="https://www.pinterest.com/" target="_blank"> <img src="Images/pinterest.png" width="35" height="35"/> </a>
+				<a href="https://www.youtube.com/" target="_blank"> <img src="Images/youtube.jpg" width="35" height="35"/> </a>				
+			</div>
+		</footer>
+
+		<div class="footer"> <a class="btn-top" href="javascript:void(0);" title="Top" style="display: inline;"></a> </div>
+		
+	</div>
+</body>
+</html>
